@@ -1,0 +1,83 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family:sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+@keyframes example {
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: rgb(0, 0, 0);
+    }
+    
+}
+.pimg1{
+    background-image: url(majestic-mountain-peak-tranquil-winter-landscape-generated-by-ai.jpg);
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url(moony.jpg);
+    min-height: 100%;
+}
+.pimg3{
+    background-image: url(Screenshot\ \(20\).png);
+    min-height: 100%;
+}
+.pimg1,.pimg2,.pimg3{
+    position: relative;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align:center;
+    color:red;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.pbg{
+    background-color: black;
+    padding: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    
+}
+.pbg2{
+    background-color:cyan;
+    color: cornflowerblue;
+    padding: 20px;
+}
+.pbg3{
+    background-color: cornflowerblue;
+    color: black;
+    padding: 20px;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.pimg1-light{
+    padding: 20px;
+    background-color: #0c0606;
+    color: red;
+}
+.pimg2-dark{
+    padding: 20px;
+    background-color: #0c0606;
+    color:aqua;
+}
+.pimg3-dark{
+    padding: 20px;
+    background-color:darkturquoise;
+    color:#0c0606;
+}
